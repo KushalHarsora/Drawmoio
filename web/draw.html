@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="drawStyles.css">
     <title>Drawmoio</title>
 </head>
 <body>
-    <div id="content">
+    <div id="contentCreate">
         <h1>Data Creator</h1>
         <br>
-        <div id="sketchPad"></div>
+        <div id="sketchPadContainer"></div>
     </div>
+    <script src="javascript/sketchPad.js"></script>
+    <script src="javascript/Draw.js"></script>
+    <script>
+        const sketchPad = new sketchPadContain(sketchPadContainer);
+    </script>
 </body>
 </html>
